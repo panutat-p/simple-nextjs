@@ -4,10 +4,10 @@ https://github.com/panutat-p/simple-nextjs
 
 ## Next.js
 
-template
+template\
 https://github.com/vercel/next.js/tree/canary/packages/create-next-app
 
-installation
+installation\
 https://nextjs.org/docs/getting-started/installation
 
 ## Vercel
