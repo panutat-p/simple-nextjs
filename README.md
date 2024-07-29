@@ -14,6 +14,14 @@ https://github.com/vercel/next.js/tree/canary/packages/create-next-app
 installation\
 https://nextjs.org/docs/getting-started/installation
 
+config\
+https://nextjs.org/docs/pages/api-reference/next-config-js
+
 ## Vercel
 
 https://nextjs.org/docs/deployment
+
+```sh
+npm i -D prettier
+npm i server-only
+```
