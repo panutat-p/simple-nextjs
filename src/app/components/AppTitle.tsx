@@ -5,11 +5,10 @@ type AppTitleProps = {
   size: number
 }
 
-export default function AppTitle({name, size}: AppTitleProps) {
-
+export default function AppTitle({ name, size }: AppTitleProps) {
   return (
     <>
-      <p style={{color: 'blue', fontSize: size}}>{name}</p>
+      <p style={{ color: 'blue', fontSize: size }}>{name}</p>
     </>
   )
 }

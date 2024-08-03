@@ -13,20 +13,10 @@ export default function AppLogo() {
   return (
     <>
       <p style={{ color: 'green' }}>hello</p>
-      <small>{subTitle}</small>
-      {' '}
-      <small>{now.toLocaleDateString()}</small>
-
+      <small>{subTitle}</small> <small>{now.toLocaleDateString()}</small>
       {item}
-
-      {
-        isShow && <div>👉 isShow is true</div>
-      }
-      {
-        isShow 
-        ? <div>🐵</div>
-        : <div>🦊</div>
-      }
+      {isShow && <div>👉 isShow is true</div>}
+      {isShow ? <div>🐵</div> : <div>🦊</div>}
       <button onClick={onClick}>click</button>
     </>
   )
