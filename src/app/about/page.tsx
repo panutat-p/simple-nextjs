@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -6,11 +7,14 @@ export const metadata: Metadata = {
   keywords: ['Next.js', 'React', 'TypeScript'],
 }
 
-export default function Page() {
+export default function AboutPage() {
   return (
-    <div>
+    <>
       <h1>About</h1>
+      <div>
+        <Link href={{ pathname: '/' }}>Go to Home</Link>
+      </div>
       <p>This is the about page</p>
-    </div>
+    </>
   )
 }
