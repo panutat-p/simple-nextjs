@@ -1,3 +1,4 @@
+import { Button } from '@mui/material'
 import { Metadata } from 'next'
 import Link from 'next/link'
 
@@ -13,6 +14,11 @@ export default function AboutPage() {
       <h1>About</h1>
       <div>
         <Link href={{ pathname: '/' }}>Go to Home</Link>
+      </div>
+      <div>
+        <Button component={Link} href="/" variant="contained" color="primary" sx={{ marginTop: 2, marginBottom: 2 }}>
+          Go to Home
+        </Button>
       </div>
       <p>This is the about page</p>
     </>

@@ -20,6 +20,16 @@ https://nextjs.org/docs/pages/api-reference/next-config-js
 routing\
 https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts
 
+## MUI Core
+
+https://mui.com/material-ui/getting-started/installation
+
+```sh
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install @mui/material-nextjs @emotion/cache
+```
+
 ## Vercel
 
 https://nextjs.org/docs/deployment
