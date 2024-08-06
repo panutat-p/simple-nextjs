@@ -1,6 +1,6 @@
-import { Button } from '@mui/material'
-import { Metadata } from 'next'
 import Link from 'next/link'
+import { Metadata } from 'next'
+import Button from '@mui/material/Button'
 
 export const metadata: Metadata = {
   title: 'About',
