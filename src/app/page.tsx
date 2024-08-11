@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import { Metadata } from 'next'
+import Typography from '@mui/material/Typography'
 import AppFruit from './components/AppFruit'
 import AppLogo from './components/AppLogo'
 import AppTitle from './components/AppTitle'
-import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -13,7 +14,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <Typography variant="h3" sx={{ color: 'blue' }}>
+        Home
+      </Typography>
       <div>
         <Link href={{ pathname: '/about' }}>Go to About</Link>
       </div>

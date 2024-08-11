@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 
 export const metadata: Metadata = {
@@ -11,7 +12,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <h1>About</h1>
+      <Typography variant="h3" sx={{ color: 'green' }}>
+        About
+      </Typography>
       <div>
         <Link href={{ pathname: '/' }}>Go to Home</Link>
       </div>
@@ -20,7 +23,7 @@ export default function AboutPage() {
           Go to Home
         </Button>
       </div>
-      <p>This is the about page</p>
+      <Typography>This is the about page</Typography>
     </>
   )
 }

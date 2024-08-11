@@ -1,9 +1,12 @@
 'use client'
 
+import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
+
 export default function AppLogo() {
   const subTitle = 'This is a subtitle'
   const now = new Date()
-  const item = <p>{now.toLocaleDateString()}</p> // React component
+  const item = <Typography>{now.toLocaleDateString()}</Typography> // React component
   const isShow = true
 
   function onClick() {
@@ -17,7 +20,7 @@ export default function AppLogo() {
       {item}
       {isShow && <div>👉 isShow is true</div>}
       {isShow ? <div>🐵</div> : <div>🦊</div>}
-      <button onClick={onClick}>click</button>
+      <Button variant="contained" onClick={onClick}>alert</Button>
     </>
   )
 }

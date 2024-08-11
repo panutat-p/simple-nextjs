@@ -1,6 +1,8 @@
 'use client'
 
 import React from 'react'
+import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
 
 export default function AppFruit() {
   const fruits = ['🍎', '🍊', '🍌', '🍉', '🍇']
@@ -14,8 +16,8 @@ export default function AppFruit() {
   return (
     <>
       <h1 style={{ color: 'green', fontSize: 25 }}>Fruit</h1>
-      <p>{fruit}</p>
-      <button onClick={onClick}>Random</button>
+      <Typography>{fruit}</Typography>
+      <Button variant="contained" onClick={onClick}>random</Button>
     </>
   )
 }
