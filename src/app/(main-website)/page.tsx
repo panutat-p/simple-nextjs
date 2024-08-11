@@ -1,9 +1,9 @@
-import Link from 'next/link'
 import { Metadata } from 'next'
 import Typography from '@mui/material/Typography'
-import AppLogo from './components/AppLogo'
-import AppTitle from './components/AppTitle'
 import AppFruit from './components/AppFruit'
+import Button from '@mui/material/Button'
+import Link from 'next/link'
+import Container from '@mui/material/Container'
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -14,20 +14,23 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Typography variant="h3" sx={{ color: 'blue' }}>
-        Home
-      </Typography>
-      <div>
-        <Link href={{ pathname: '/about' }}>Go to About</Link>
-      </div>
-      <h3>ENV app name: {process.env.NEXT_PUBLIC_APP_NAME}</h3>
-      <h3>ENV DB host: {process.env.DB_HOST}</h3>
-      <AppLogo />
-      <hr />
-      <AppTitle name="Mister" size={35} />
-      <AppTitle name="Miss" size={20} />
-      <hr />
-      <AppFruit />
+      <Container>
+        <Typography variant="h3">Home</Typography>
+        <Typography>ENV app name: {process.env.NEXT_PUBLIC_APP_NAME}</Typography>
+        <Typography>ENV DB host: {process.env.DB_HOST}</Typography>
+        <AppFruit />
+        <div>
+          <Button
+            component={Link}
+            href="/about"
+            variant="contained"
+            color="primary"
+            sx={{ marginTop: 2, marginBottom: 2 }}
+          >
+            Go to About
+          </Button>
+        </div>
+      </Container>
     </>
   )
 }
