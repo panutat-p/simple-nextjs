@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
 import Typography from '@mui/material/Typography'
-import AppFruit from './components/AppFruit'
 import AppLogo from './components/AppLogo'
 import AppTitle from './components/AppTitle'
+import AppFruit from './components/AppFruit'
 
 export const metadata: Metadata = {
   title: 'Home',
-  description: 'This is the home page',
+  description: 'src/app/(main-website)/page.tsx',
   keywords: ['Next.js', 'React', 'TypeScript'],
 }
 

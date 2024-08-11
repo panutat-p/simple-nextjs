@@ -5,7 +5,7 @@ import Button from '@mui/material/Button'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'This is the about page',
+  description: 'src/app/(main-website)/about/page.tsx',
   keywords: ['Next.js', 'React', 'TypeScript'],
 }
 

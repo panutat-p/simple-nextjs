@@ -20,7 +20,9 @@ export default function AppLogo() {
       {item}
       {isShow && <div>👉 isShow is true</div>}
       {isShow ? <div>🐵</div> : <div>🦊</div>}
-      <Button variant="contained" onClick={onClick}>alert</Button>
+      <Button variant="contained" onClick={onClick}>
+        alert
+      </Button>
     </>
   )
 }

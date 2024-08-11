@@ -17,7 +17,9 @@ export default function AppFruit() {
     <>
       <h1 style={{ color: 'green', fontSize: 25 }}>Fruit</h1>
       <Typography>{fruit}</Typography>
-      <Button variant="contained" onClick={onClick}>random</Button>
+      <Button variant="contained" onClick={onClick}>
+        random
+      </Button>
     </>
   )
 }
