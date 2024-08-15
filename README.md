@@ -20,6 +20,9 @@ https://nextjs.org/docs/pages/api-reference/next-config-js
 routing\
 https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts
 
+data fetching\
+https://nextjs.org/docs/pages/building-your-application/data-fetching
+
 ## MUI Core
 
 https://mui.com/material-ui/getting-started/installation
