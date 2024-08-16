@@ -8,6 +8,10 @@ https://react.dev/blog/2023/03/16/introducing-react-dev
 
 ## Next.js
 
+```sh
+npm i -g next@latest
+```
+
 template\
 https://github.com/vercel/next.js/tree/canary/packages/create-next-app
 
