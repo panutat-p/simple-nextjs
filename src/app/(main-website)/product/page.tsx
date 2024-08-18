@@ -6,7 +6,6 @@ export default async function ProductPage() {
   const res = await getProduct()
   const products = JSON.stringify(res, null, 2)
 
-
   return (
     <Container>
       <Typography variant="h3">Product</Typography>
