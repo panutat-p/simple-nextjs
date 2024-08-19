@@ -4,6 +4,8 @@ https://github.com/panutat-p/simple-nextjs
 
 ## React
 
+https://vitejs.dev/guide
+
 https://react.dev/blog/2023/03/16/introducing-react-dev
 
 ## Next.js
