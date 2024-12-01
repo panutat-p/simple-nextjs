@@ -47,3 +47,7 @@ https://nextjs.org/docs/deployment
 npm i -D prettier
 npm i server-only
 ```
+
+## Singleton connection
+
+https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
