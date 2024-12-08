@@ -2,12 +2,6 @@
   "name": "simple-nextjs",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --port 3000",
-    "build": "next build",
-    "start": "next start",
-    "lint": "prettier --write ."
-  },
   "dependencies": {
     "@emotion/cache": "^11.13.1",
     "@emotion/react": "^11.13.0",
