@@ -19,6 +19,7 @@ export default function Home() {
   return (
     <>
       <Container>
+        <Typography variant="subtitle1">/</Typography>
         <Typography variant="h3">Home</Typography>
         <Typography>ENV app name: {process.env.NEXT_PUBLIC_APP_NAME}</Typography>
         <Typography>ENV DB host: {process.env.DB_HOST}</Typography>
@@ -26,16 +27,7 @@ export default function Home() {
         <Typography>ENV MONGODB_PORT: {process.env.MONGODB_PORT}</Typography>
         <Typography>ENV MONGODB_USERNAME: {process.env.MONGODB_USERNAME}</Typography>
         <Typography>ENV MONGODB_PASSWORD: {process.env.MONGODB_PASSWORD}</Typography>
-        <Typography>ENV MONGODB_DB_NAME: {process.env.MONGODB_DB_NAME}</Typography>
-        <Typography>
-          MongoDB DSN:
-          {concatDSN(
-            process.env.MONGODB_HOST || '',
-            process.env.MONGODB_PORT || '',
-            process.env.MONGODB_USERNAME || '',
-            process.env.MONGODB_PASSWORD || ''
-          )}
-        </Typography>
+        <Typography>ENV MONGODB_DB_NAME: {process.env.MONGODB_DATABASE_NAME}</Typography>
         <AppFruit />
         <div>
           <Button

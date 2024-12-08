@@ -1,8 +1,8 @@
 import { Company } from '@/db/model'
-import { companyCollection } from '@/db/mongodb'
+import db from '@/db/mongodb'
 
 export async function findAllCompany(): Promise<Company[]> {
-  const docs = await companyCollection.find({}).sort({ _id: -1 }).toArray()
+  const docs = await db.collection('company').find({}).sort({ _id: -1 }).toArray()
   return docs.map(
     (doc) =>
       ({

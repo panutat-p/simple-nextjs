@@ -39,15 +39,14 @@ npm install @mui/icons-material
 npm install @mui/material-nextjs @emotion/cache
 ```
 
-## Vercel
-
-https://nextjs.org/docs/deployment
+## MongoDB
 
 ```sh
-npm i -D prettier
-npm i server-only
+mongosh 'mongodb://root:1234@localhost/admin'
 ```
 
-## Singleton connection
-
-https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
+```mongodb
+use demo
+db.company.insertOne({ name: "Apple", phone: "+1 408-996-1010" })
+db.company.insertOne({ name: "Google", phone: "+1 650-253-0000" })
+```

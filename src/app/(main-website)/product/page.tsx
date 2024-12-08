@@ -15,6 +15,7 @@ export default async function ProductPage() {
   return (
     <>
       <Container>
+        <Typography variant="subtitle1">/product</Typography>
         <Typography variant="h3">Product</Typography>
         <Box marginTop={5}>
           <Image src={fruitLogo} alt="fruit logo" width={150} height={150} priority />

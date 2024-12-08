@@ -26,6 +26,7 @@ export default async function AboutPage() {
   return (
     <>
       <Container>
+        <Typography variant="subtitle1">/about</Typography>
         <Typography variant="h3">About</Typography>
         <Box marginTop={5} marginBottom={3}>
           <Image
